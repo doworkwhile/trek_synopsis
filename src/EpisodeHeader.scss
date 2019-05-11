@@ -1,0 +1,31 @@
+@import "./colors.scss";
+
+div.episodes {
+  white-space: nowrap;
+  overflow-x: scroll;
+  width: 100%;
+
+  & a {
+    display: inline-block;
+    padding: 6px;
+    border: 2px solid black;
+    border-radius: 6px;
+    color: #121212;
+    text-decoration: none;
+    margin-right: 6px;
+    margin-bottom: 6px;
+  }
+
+  &.tos a {
+    background-color: $tos;
+  }
+  &.tng a {
+    background-color: $tng;
+  }
+  &.ds9 a {
+    background-color: $ds9;
+  }
+  &.voy a {
+    background-color: $voy;
+  }
+}

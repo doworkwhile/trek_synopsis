@@ -6,6 +6,8 @@ import DS9_Episodes from './Episode_Headers/DS9_Episodes.js'
 import VOY_Episodes from './Episode_Headers/VOY_Episodes.js'
 import Home_Episodes from './Episode_Headers/Home_Episodes.js'
 
+import './EpisodeHeader.scss'
+
 function EpisodeHeader() {
   return (
     <Switch>

@@ -1,25 +1,14 @@
-header {
-  padding: 6px;
-}
+@import "./colors.scss";
 
-$show_link-height: 6px;
-
-.show_header--link_container {
+header a {
   display: inline-block;
-  padding-top: $show_link-height;
-  padding-bottom: $show_link-height;
-
-  &:not(:first-child) {
-    padding-left: 6px;
-  }
-}
-
-.show_header--link {
-  padding: $show_link-height 18px;
+  padding: 6px;
   border: 2px solid black;
   border-radius: 6px;
-  color: hsl(0, 0%, 7%);
+  color: #121212;
   text-decoration: none;
+  margin-right: 6px;
+  margin-bottom: 6px;
 
   &:hover {
     text-decoration: underline;
@@ -27,22 +16,23 @@ $show_link-height: 6px;
   }
 
   &.home {
-    background-color: hsl(190, 65%, 65%);
+    background-color: $home;
   }
 
   &.tos {
-    background-color: hsl(60, 80%, 50%);
+    background-color: $tos;
   }
 
   &.tng {
-    background-color: hsl(0, 90%, 60%);
+    background-color: $tng;
   }
 
   &.ds9 {
-    background-color: hsl(290, 50%, 70%);
+    background-color: $ds9;
   }
 
   &.voy {
-    background-color: hsl(95, 35%, 65%);
+    background-color: $voy;
   }
+
 }

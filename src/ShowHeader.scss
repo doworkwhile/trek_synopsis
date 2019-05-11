@@ -1,0 +1,38 @@
+header {
+  padding: 6px;
+}
+
+.show_header--link_container {
+  display: inline-block;
+  padding: 6px;
+}
+
+.show_header--link {
+  padding: 6px 12px;
+  border-radius: 6px;
+  color: hsl(150, 10%, 10%);
+
+  &:not(:first-child) {
+    margin-left: 12px;
+  }
+
+  &.home {
+    background-color: hsl(190, 65%, 65%);
+  }
+
+  &.tos {
+    background-color: hsl(60, 80%, 50%);
+  }
+
+  &.tng {
+    background-color: hsl(0, 75%, 55%);
+  }
+
+  &.ds9 {
+    background-color: hsl(290, 40%, 65%);
+  }
+
+  &.voy {
+    background-color: hsl(95, 35%, 65%);
+  }
+}

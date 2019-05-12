@@ -1,11 +1,11 @@
 @import "./colors.scss";
 
-div.episodes {
+div.seasons {
   width: 100%;
 
   & a {
     display: inline-block;
-    padding: 6px;
+    padding: 9px 15px;
     border: 2px solid black;
     border-radius: 6px;
     color: #121212;
@@ -13,21 +13,9 @@ div.episodes {
     margin-right: 6px;
     margin-bottom: 6px;
 
-
     &:hover {
       text-decoration: underline;
       border: 2px solid white;
-    }
-
-    span {
-      background-color: white;
-      display: inline-block;
-      padding: 3px;
-      padding-left: 6px;
-      padding-right: 6px;
-      border: 1px solid black;
-      border-radius: 50%;
-      margin-right: 6px;
     }
   }
 
@@ -43,4 +31,5 @@ div.episodes {
   &.voy a {
     background-color: $voy;
   }
+
 }

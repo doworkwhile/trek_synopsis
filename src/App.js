@@ -11,13 +11,9 @@ function App() {
   return (
     <BrowserRouter>
       <ShowHeader />
-      <hr />
       <SeasonHeader />
-      <hr />
       <EpisodeHeader />
-      <hr />
       <EpisodeSynopsis />
-      <hr />
       <Footer />
     </BrowserRouter>
   );

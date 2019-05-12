@@ -2,10 +2,8 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import TOS_S1_EpisodeList from './TOS/TOS_S1_EpisodeList.js'
 import TOS_S2_EpisodeList from './TOS/TOS_S2_EpisodeList.js'
+import TOS_S3_EpisodeList from './TOS/TOS_S3_EpisodeList.js'
 import TNG_S1_EpisodeList from './TNG/TNG_S1_EpisodeList.js'
-import DS9_Episodes from './Episode_Headers/DS9_Episodes.js'
-import VOY_Episodes from './Episode_Headers/VOY_Episodes.js'
-import Home_Episodes from './Episode_Headers/Home_Episodes.js'
 
 import './EpisodeHeader.scss'
 
@@ -14,10 +12,8 @@ function EpisodeHeader() {
     <Switch>
       <Route path="/TOS/S1" component={TOS_S1_EpisodeList} />
       <Route path="/TOS/S2" component={TOS_S2_EpisodeList} />
+      <Route path="/TOS/S3" component={TOS_S3_EpisodeList} />
       <Route path="/TNG/S1" component={TNG_S1_EpisodeList} />
-      <Route path="/DS9" component={DS9_Episodes} />
-      <Route path="/VOY" component={VOY_Episodes} />
-      <Route exact path="/" component={Home_Episodes} />
     </Switch>
   );
 }

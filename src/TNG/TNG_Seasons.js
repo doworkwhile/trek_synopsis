@@ -1,16 +1,16 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import TrekLink from '../TrekLink.js'
 
 function TNG_Seasons() {
   return (
     <div className='seasons tng'>
-      <Link to="/TNG/S1">Season 1</Link>
-      <Link to="/TNG/S2">Season 2</Link>
-      <Link to="/TNG/S3">Season 3</Link>
-      <Link to="/TNG/S4">Season 4</Link>
-      <Link to="/TNG/S5">Season 5</Link>
-      <Link to="/TNG/S6">Season 6</Link>
-      <Link to="/TNG/S7">Season 7</Link>
+      <TrekLink to="/TNG/S1" text="Season 1" />
+      <TrekLink to="/TNG/S2" text="Season 2" />
+      <TrekLink to="/TNG/S3" text="Season 3" />
+      <TrekLink to="/TNG/S4" text="Season 4" />
+      <TrekLink to="/TNG/S5" text="Season 5" />
+      <TrekLink to="/TNG/S6" text="Season 6" />
+      <TrekLink to="/TNG/S7" text="Season 7" />
     </div>
   );
 }

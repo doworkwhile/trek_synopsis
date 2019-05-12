@@ -1,34 +1,34 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import TrekLink from '../TrekLink.js'
 
 function TOS_S3_EpisodeList() {
   return (
     <div className='episodes tos'>
       <div>
-        <Link to="/TOS/S3/1"><span>1</span>Spock's Brain</Link>
-        <Link to="/TOS/S3/2"><span>2</span>The Enterprise Incident</Link>
-        <Link to="/TOS/S3/3"><span>3</span>The Paradise Syndrome</Link>
-        <Link to="/TOS/S3/4"><span>4</span>And the Children Shall Lead</Link>
-        <Link to="/TOS/S3/5"><span>5</span>Is There in Truth No Beauty?</Link>
-        <Link to="/TOS/S3/6"><span>6</span>Spectre of the Gun</Link>
-        <Link to="/TOS/S3/7"><span>7</span>Day of the Dove</Link>
-        <Link to="/TOS/S3/8"><span>8</span>For the World Is Hollow and I Have Touched the Sky</Link>
-        <Link to="/TOS/S3/9"><span>9</span>The Tholian Web</Link>
-        <Link to="/TOS/S3/10"><span>10</span>Plato's Stepchildren</Link>
-        <Link to="/TOS/S3/11"><span>11</span>Wink of an Eye</Link>
-        <Link to="/TOS/S3/12"><span>12</span>The Empath</Link>
-        <Link to="/TOS/S3/13"><span>13</span>Elaan of Troyius</Link>
-        <Link to="/TOS/S3/14"><span>14</span>Whom Gods Destroy</Link>
-        <Link to="/TOS/S3/15"><span>15</span>Let That Be Your Last Battlefield</Link>
-        <Link to="/TOS/S3/16"><span>16</span>The Mark of Gideon</Link>
-        <Link to="/TOS/S3/17"><span>17</span>That Which Survives</Link>
-        <Link to="/TOS/S3/18"><span>18</span>The Lights of Zetar</Link>
-        <Link to="/TOS/S3/19"><span>19</span>Requiem for Methuselah</Link>
-        <Link to="/TOS/S3/20"><span>20</span>The Way to Eden</Link>
-        <Link to="/TOS/S3/21"><span>21</span>The Cloud Minders</Link>
-        <Link to="/TOS/S3/22"><span>22</span>The Savage Curtain</Link>
-        <Link to="/TOS/S3/23"><span>23</span>All Our Yesterdays</Link>
-        <Link to="/TOS/S3/24"><span>24</span>Turnabout Intruder</Link>
+        <TrekLink to="/TOS/S3/1" epNum="1" text="Spock's Brain" />
+        <TrekLink to="/TOS/S3/2" epNum="2" text="The Enterprise Incident" />
+        <TrekLink to="/TOS/S3/3" epNum="3" text="The Paradise Syndrome" />
+        <TrekLink to="/TOS/S3/4" epNum="4" text="And the Children Shall Lead" />
+        <TrekLink to="/TOS/S3/5" epNum="5" text="Is There in Truth No Beauty?" />
+        <TrekLink to="/TOS/S3/6" epNum="6" text="Spectre of the Gun" />
+        <TrekLink to="/TOS/S3/7" epNum="7" text="Day of the Dove" />
+        <TrekLink to="/TOS/S3/8" epNum="8" text="For the World Is Hollow and I Have Touched the Sky" />
+        <TrekLink to="/TOS/S3/9" epNum="9" text="The Tholian Web" />
+        <TrekLink to="/TOS/S3/10" epNum="10" text="Plato's Stepchildren" />
+        <TrekLink to="/TOS/S3/11" epNum="11" text="Wink of an Eye" />
+        <TrekLink to="/TOS/S3/12" epNum="12" text="The Empath" />
+        <TrekLink to="/TOS/S3/13" epNum="13" text="Elaan of Troyius" />
+        <TrekLink to="/TOS/S3/14" epNum="14" text="Whom Gods Destroy" />
+        <TrekLink to="/TOS/S3/15" epNum="15" text="Let That Be Your Last Battlefield" />
+        <TrekLink to="/TOS/S3/16" epNum="16" text="The Mark of Gideon" />
+        <TrekLink to="/TOS/S3/17" epNum="17" text="That Which Survives" />
+        <TrekLink to="/TOS/S3/18" epNum="18" text="The Lights of Zetar" />
+        <TrekLink to="/TOS/S3/19" epNum="19" text="Requiem for Methuselah" />
+        <TrekLink to="/TOS/S3/20" epNum="20" text="The Way to Eden" />
+        <TrekLink to="/TOS/S3/21" epNum="21" text="The Cloud Minders" />
+        <TrekLink to="/TOS/S3/22" epNum="22" text="The Savage Curtain" />
+        <TrekLink to="/TOS/S3/23" epNum="23" text="All Our Yesterdays" />
+        <TrekLink to="/TOS/S3/24" epNum="24" text="Turnabout Intruder" />
       </div>
     </div>
   );

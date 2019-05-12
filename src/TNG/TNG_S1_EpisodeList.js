@@ -1,35 +1,35 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import TrekLink from '../TrekLink.js'
 
 function TNG_S1_EpisodeList() {
   return (
     <div className='episodes tng'>
       <div>
-        <Link to="/TNG/S1/1"><span>1/2</span>Encounter at Farpoint</Link>
-        <Link to="/TNG/S1/3"><span>3</span>The Naked Now</Link>
-        <Link to="/TNG/S1/4"><span>4</span>Code of Honor</Link>
-        <Link to="/TNG/S1/5"><span>5</span>The Last Outpost</Link>
-        <Link to="/TNG/S1/6"><span>6</span>Where No One Has Gone Before</Link>
-        <Link to="/TNG/S1/7"><span>7</span>Lonely Among Us</Link>
-        <Link to="/TNG/S1/8"><span>8</span>Justice</Link>
-        <Link to="/TNG/S1/9"><span>9</span>The Battle</Link>
-        <Link to="/TNG/S1/10"><span>10</span>Hide and Q</Link>
-        <Link to="/TNG/S1/11"><span>11</span>Haven</Link>
-        <Link to="/TNG/S1/12"><span>12</span>The Big Goodbye</Link>
-        <Link to="/TNG/S1/13"><span>13</span>Datalore</Link>
-        <Link to="/TNG/S1/14"><span>14</span>Angel One</Link>
-        <Link to="/TNG/S1/15"><span>15</span>11001001</Link>
-        <Link to="/TNG/S1/16"><span>16</span>Too Short a Season</Link>
-        <Link to="/TNG/S1/17"><span>17</span>When the Bough Breaks</Link>
-        <Link to="/TNG/S1/18"><span>18</span>Home Soil</Link>
-        <Link to="/TNG/S1/19"><span>19</span>Coming of Age</Link>
-        <Link to="/TNG/S1/20"><span>20</span>Heart of Glory</Link>
-        <Link to="/TNG/S1/21"><span>21</span>The Arsenal of Freedom</Link>
-        <Link to="/TNG/S1/22"><span>22</span>Symbiosis</Link>
-        <Link to="/TNG/S1/23"><span>23</span>Skin of Evil</Link>
-        <Link to="/TNG/S1/24"><span>24</span>We'll Always Have Paris</Link>
-        <Link to="/TNG/S1/25"><span>25</span>Conspiracy</Link>
-        <Link to="/TNG/S1/26"><span>26</span>The Neutral Zone</Link>
+        <TrekLink to="/TNG/S1/1" epNum="1/2" text="Encounter at Farpoint" />
+        <TrekLink to="/TNG/S1/3" epNum="3" text="The Naked Now" />
+        <TrekLink to="/TNG/S1/4" epNum="4" text="Code of Honor" />
+        <TrekLink to="/TNG/S1/5" epNum="5" text="The Last Outpost" />
+        <TrekLink to="/TNG/S1/6" epNum="6" text="Where No One Has Gone Before" />
+        <TrekLink to="/TNG/S1/7" epNum="7" text="Lonely Among Us" />
+        <TrekLink to="/TNG/S1/8" epNum="8" text="Justice" />
+        <TrekLink to="/TNG/S1/9" epNum="9" text="The Battle" />
+        <TrekLink to="/TNG/S1/10" epNum="10" text="Hide and Q" />
+        <TrekLink to="/TNG/S1/11" epNum="11" text="Haven" />
+        <TrekLink to="/TNG/S1/12" epNum="12" text="The Big Goodbye" />
+        <TrekLink to="/TNG/S1/13" epNum="13" text="Datalore" />
+        <TrekLink to="/TNG/S1/14" epNum="14" text="Angel One" />
+        <TrekLink to="/TNG/S1/15" epNum="15" text="11001001" />
+        <TrekLink to="/TNG/S1/16" epNum="16" text="Too Short a Season" />
+        <TrekLink to="/TNG/S1/17" epNum="17" text="When the Bough Breaks" />
+        <TrekLink to="/TNG/S1/18" epNum="18" text="Home Soil" />
+        <TrekLink to="/TNG/S1/19" epNum="19" text="Coming of Age" />
+        <TrekLink to="/TNG/S1/20" epNum="20" text="Heart of Glory" />
+        <TrekLink to="/TNG/S1/21" epNum="21" text="The Arsenal of Freedom" />
+        <TrekLink to="/TNG/S1/22" epNum="22" text="Symbiosis" />
+        <TrekLink to="/TNG/S1/23" epNum="23" text="Skin of Evil" />
+        <TrekLink to="/TNG/S1/24" epNum="24" text="We'll Always Have Paris" />
+        <TrekLink to="/TNG/S1/25" epNum="25" text="Conspiracy" />
+        <TrekLink to="/TNG/S1/26" epNum="26" text="The Neutral Zone" />
       </div>
     </div>
   );

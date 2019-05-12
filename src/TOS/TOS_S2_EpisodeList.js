@@ -1,36 +1,36 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import TrekLink from '../TrekLink.js'
 
 function TOS_S2_EpisodeList() {
   return (
     <div className='episodes tos'>
       <div>
-        <Link to="/TOS/S2/1"><span>1</span>Amok Time</Link>
-        <Link to="/TOS/S2/2"><span>2</span>Who Mourns for Adonais?</Link>
-        <Link to="/TOS/S2/3"><span>3</span>The Changeling</Link>
-        <Link to="/TOS/S2/4"><span>4</span>Mirror, Mirror</Link>
-        <Link to="/TOS/S2/5"><span>5</span>The Apple</Link>
-        <Link to="/TOS/S2/6"><span>6</span>The Doomsday Machine</Link>
-        <Link to="/TOS/S2/7"><span>7</span>Catspaw</Link>
-        <Link to="/TOS/S2/8"><span>8</span>I, Mudd</Link>
-        <Link to="/TOS/S2/9"><span>9</span>Metamorphosis</Link>
-        <Link to="/TOS/S2/10"><span>10</span>Journey to Babel</Link>
-        <Link to="/TOS/S2/11"><span>11</span>Friday's Child</Link>
-        <Link to="/TOS/S2/12"><span>12</span>The Deadly Years</Link>
-        <Link to="/TOS/S2/13"><span>13</span>Obsession</Link>
-        <Link to="/TOS/S2/14"><span>14</span>Wolf in the Fold</Link>
-        <Link to="/TOS/S2/15"><span>15</span>The Trouble with Tribbles</Link>
-        <Link to="/TOS/S2/16"><span>16</span>The Gamesters of Triskelion</Link>
-        <Link to="/TOS/S2/17"><span>17</span>A Piece of the Action</Link>
-        <Link to="/TOS/S2/18"><span>18</span>The Immunity Syndrome</Link>
-        <Link to="/TOS/S2/19"><span>19</span>A Private Little War</Link>
-        <Link to="/TOS/S2/20"><span>20</span>Return to Tomorrow</Link>
-        <Link to="/TOS/S2/21"><span>21</span>Patterns of Force</Link>
-        <Link to="/TOS/S2/22"><span>22</span>By Any Other Name</Link>
-        <Link to="/TOS/S2/23"><span>23</span>The Omega Glory</Link>
-        <Link to="/TOS/S2/24"><span>24</span>The Ultimate Computer</Link>
-        <Link to="/TOS/S2/25"><span>25</span>Bread and Circuses</Link>
-        <Link to="/TOS/S2/26"><span>26</span>Assignment: Earth</Link>
+        <TrekLink to="/TOS/S2/1" epNum="1" text="Amok Time" />
+        <TrekLink to="/TOS/S2/2" epNum="2" text="Who Mourns for Adonais?" />
+        <TrekLink to="/TOS/S2/3" epNum="3" text="The Changeling" />
+        <TrekLink to="/TOS/S2/4" epNum="4" text="Mirror, Mirror" />
+        <TrekLink to="/TOS/S2/5" epNum="5" text="The Apple" />
+        <TrekLink to="/TOS/S2/6" epNum="6" text="The Doomsday Machine" />
+        <TrekLink to="/TOS/S2/7" epNum="7" text="Catspaw" />
+        <TrekLink to="/TOS/S2/8" epNum="8" text="I, Mudd" />
+        <TrekLink to="/TOS/S2/9" epNum="9" text="Metamorphosis" />
+        <TrekLink to="/TOS/S2/10" epNum="10" text="Journey to Babel" />
+        <TrekLink to="/TOS/S2/11" epNum="11" text="Friday's Child" />
+        <TrekLink to="/TOS/S2/12" epNum="12" text="The Deadly Years" />
+        <TrekLink to="/TOS/S2/13" epNum="13" text="Obsession" />
+        <TrekLink to="/TOS/S2/14" epNum="14" text="Wolf in the Fold" />
+        <TrekLink to="/TOS/S2/15" epNum="15" text="The Trouble with Tribbles" />
+        <TrekLink to="/TOS/S2/16" epNum="16" text="The Gamesters of Triskelion" />
+        <TrekLink to="/TOS/S2/17" epNum="17" text="A Piece of the Action" />
+        <TrekLink to="/TOS/S2/18" epNum="18" text="The Immunity Syndrome" />
+        <TrekLink to="/TOS/S2/19" epNum="19" text="A Private Little War" />
+        <TrekLink to="/TOS/S2/20" epNum="20" text="Return to Tomorrow" />
+        <TrekLink to="/TOS/S2/21" epNum="21" text="Patterns of Force" />
+        <TrekLink to="/TOS/S2/22" epNum="22" text="By Any Other Name" />
+        <TrekLink to="/TOS/S2/23" epNum="23" text="The Omega Glory" />
+        <TrekLink to="/TOS/S2/24" epNum="24" text="The Ultimate Computer" />
+        <TrekLink to="/TOS/S2/25" epNum="25" text="Bread and Circuses" />
+        <TrekLink to="/TOS/S2/26" epNum="26" text="Assignment: Earth" />
       </div>
     </div>
   );

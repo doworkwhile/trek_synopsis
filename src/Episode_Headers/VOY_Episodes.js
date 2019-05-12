@@ -2,7 +2,7 @@ import React from 'react';
 
 function VOY_Episodes() {
   return (
-    <h1>VOY EPISODES</h1>
+    <div />
   );
 }
 

@@ -15,7 +15,7 @@ function EpisodeHeader() {
       <Route path="/TNG" component={TNG_Episodes} />
       <Route path="/DS9" component={DS9_Episodes} />
       <Route path="/VOY" component={VOY_Episodes} />
-      <Route path="/" component={Home_Episodes} />
+      <Route exact path="/" component={Home_Episodes} />
     </Switch>
   );
 }

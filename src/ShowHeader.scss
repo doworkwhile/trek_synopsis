@@ -1,5 +1,9 @@
 @import "./colors.scss";
 
+header {
+  text-align: center;
+}
+
 header a {
   display: inline-block;
   padding: 9px 15px;
@@ -9,6 +13,7 @@ header a {
   text-decoration: none;
   margin-right: 6px;
   margin-bottom: 6px;
+  font-weight: bold;
 
   &:hover {
     text-decoration: underline;
@@ -21,18 +26,22 @@ header a {
 
   &.tos {
     background-color: $tos;
+    font-style: italic;
   }
 
   &.tng {
     background-color: $tng;
+    font-style: italic;
   }
 
   &.ds9 {
     background-color: $ds9;
+    font-style: italic;
   }
 
   &.voy {
     background-color: $voy;
+    font-style: italic;
   }
 
 }

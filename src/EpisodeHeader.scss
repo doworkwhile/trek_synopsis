@@ -9,6 +9,8 @@ div.episodes {
   padding-top: 6px;
   padding-left: 6px;
   direction: rtl;
+  max-width: 720px;
+  margin: auto;
 
   & div {
     direction: ltr;

@@ -2,15 +2,19 @@
 
 div.episodes {
   overflow-y: scroll;
-  max-height: 120px;
-  border-top: 1px solid hsl(0, 0%, 95%);
+  max-height: 480px;
   border-bottom: 1px solid hsl(0, 0%, 95%);
   border-right: 1px solid hsl(0, 0%, 95%);
   padding-top: 6px;
   padding-left: 6px;
   direction: rtl;
-  max-width: 720px;
-  margin: auto;
+  display: inline-block;
+  float: left;
+
+  @media screen and (min-width: 1012px) {
+    max-width: calc(300px - 7px);
+    width: calc(300px - 7px);
+  }
 
   & div {
     direction: ltr;

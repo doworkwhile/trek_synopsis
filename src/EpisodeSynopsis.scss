@@ -1,12 +1,21 @@
 div.synopsis {
   font-size: 22px;
   font-weight: bolder;
-  margin-top: 12px;
-  border-top: 1px solid hsl(0, 0%, 95%);
-  padding: 12px 0px;
+  padding: 12px;
+  display: inline-block;
+
+  @media screen and (min-width: 1012px) {
+    max-width: calc(700px - 24px);
+    width: calc(700px - 24px);
+  }
+
+  @media screen and (max-width: 1012px) {
+    width: calc(100% - 6px);
+    margin: 0 auto;
+  }
 
   div {
-    max-width: 480px;
     margin: auto;
+    max-width: 480px;
   }
 }
